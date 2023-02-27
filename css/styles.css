@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    background-color: hsla(241, 100%, 89%, 5%);
+}
+
+main {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 6px 1px 1px hsla(241, 100%, 89%, 10%);
+}
+
+.gradiant-bg {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.dark {
+    color: hsl(224, 30%, 27%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    padding-left: 2rem;
+}
+
+/* LEFT  */
+.card {   
+    width: 300px;
+    border-radius: 25px;
+}
+
+.card-header {
+    font-size: 18px;
+    font-weight: 800;
+
+    padding: 1.5rem 0;
+}
+
+.result-ratio {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+    margin-bottom: 2rem;
+}
+
+.result {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.ratio {
+    font-weight: 500;
+}
+
+.result-comments {
+    font-weight: 500;
+}
+
+.comment-header {
+    font-weight: 700;
+
+    padding-bottom: 1rem;
+}
+
+.comment-content {
+    font-size: 15px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+/* RIGHT */
+.red {
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+
+.yellow {
+    background-color: hsla(39, 100%, 56%, 10%);
+}
+
+.green {
+    background-color: hsla(166, 100%, 37%, 10%);
+}
+
+.cobalt {
+    background-color: hsla(234, 85%, 45%, 10%);
+}
+
+.red-text {
+    color: hsla(0, 100%, 67%, 100%);
+}
+
+.yellow-text {
+    color: hsla(39, 100%, 56%, 100%);
+}
+
+.green-text {
+    color: hsla(166, 100%, 37%, 100%);
+}
+
+.cobalt-text {
+    color: hsla(234, 85%, 45%, 100%);
+}
+
+
+.ratio-card {
+    width: 80%;
+    padding: 0.75rem;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color:hsl(224, 30%, 27%);
+
+    margin-bottom: 1rem;
+}
+
+.ratio-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ratio-qt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color:hsla(224, 30%, 27%, 25%);
+    font-weight: 800;
+}
+
+.score {
+    color:hsla(224, 30%, 27%, 100%);
+
+    padding-right: 0.5rem;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 1rem;
+
+    padding: 1rem 0;
+}
+
+/* ATTRIBUTION */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color:hsl(224, 30%, 27%);
+
+    padding-bottom: 1rem;
+}
+
+.attribution {     
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }

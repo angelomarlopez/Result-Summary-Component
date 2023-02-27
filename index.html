@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main>
+      <div class="card gradiant-bg text-center center-flex">
+        <h1 class="card-header">Your Result</h1>
+        <div class="result-ratio">
+          <p class="result">76</p>
+          <p class="ratio">of 100</p>
+        </div>
+        <div class="result-comments">
+          <h2 class="comment-header">Great</h2>
+          <p class="comment-content">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="card left">
+        <h1 class="card-header dark">Summary</h1>
+        <div class="ratio-card red">
+          <div class="ratio-category red-text">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction-svg">
+            Reaction
+          </div>
+          <div class="ratio-qt">
+            <div class="score">80</div>/ 100
+          </div>
+        </div>
+        <div class="ratio-card yellow">
+          <div class="ratio-category yellow-text">
+            <img src="./assets/images/icon-memory.svg" alt="reaction-svg">
+            Memory
+          </div>
+          <div class="ratio-qt">
+            <div class="score">92</div>/ 100
+          </div>
+        </div>
+        <div class="ratio-card green">
+          <div class="ratio-category green-text">
+            <img src="./assets/images/icon-verbal.svg" alt="reaction-svg">
+            Verbal
+          </div>
+          <div class="ratio-qt">
+            <div class="score">61</div>/ 100
+          </div>
+        </div>
+        <div class="ratio-card cobalt">
+          <div class="ratio-category cobalt-text">
+            <img src="./assets/images/icon-visual.svg" alt="reaction-svg">
+            Visual
+          </div>
+          <div class="ratio-qt">
+            <div class="score">72</div>/ 100
+          </div>
+        </div>
+        <button class="btn gradiant-bg">Continue</button>
+      </div>
+  </main> 
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Angel Lopez</a>.
+    </div>
+  </footer>
+</body>
+</html>
