@@ -15,16 +15,33 @@ body {
 }
 
 main {
-    position: relative;
-    top: 50%;
-    transform: translateY(50%);
-
-    display: flex;
-    justify-content: center;
-
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 6px 1px 1px hsla(241, 100%, 89%, 10%);
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        position: relative;
+        top: 50%;
+        transform: translateY(50%);
+
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .gradiant-bg {
@@ -192,11 +209,9 @@ main {
 /* ATTRIBUTION */
 
 footer {
-    position: absolute;
-    bottom: 0;
     color:hsl(224, 30%, 27%);
 
-    padding-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 .attribution {     
